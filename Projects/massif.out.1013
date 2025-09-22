@@ -1,0 +1,678 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=242193
+mem_heap_B=8
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=247120
+mem_heap_B=104
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=257526
+mem_heap_B=1128
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=259354
+mem_heap_B=2152
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=264053
+mem_heap_B=2624
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=264791
+mem_heap_B=3136
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=270729
+mem_heap_B=3328
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=270767
+mem_heap_B=3392
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=270805
+mem_heap_B=3440
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=detailed
+n7: 3440 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2560 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 2560 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 1536 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 1536 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4A021B3: __vfscanf_internal (vfscanf-internal.c:676)
+      n1: 1024 0x49F5EB5: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 1024 0x10A6BC: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 512 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n1: 512 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 1024 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1024 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n1: 1024 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 472 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n1: 472 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 96 0x494E4DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x494CBA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x494CC77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n0: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 64 0x10B1C1: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 64 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 48 0x10B1CD: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 48 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n0: 8 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=354430
+mem_heap_B=3912
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=355988
+mem_heap_B=4424
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=356642
+mem_heap_B=4424
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=detailed
+n7: 4424 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3072 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 3072 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 1536 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 1536 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4A021B3: __vfscanf_internal (vfscanf-internal.c:676)
+      n1: 1024 0x49F5EB5: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 1024 0x10A6BC: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 512 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n1: 512 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 1536 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1536 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1536 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1536 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1536 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n2: 1536 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+         n1: 512 0x4ACCCC2: __fprintf_chk (fprintf_chk.c:33)
+          n1: 512 0x10AC6A: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+           n0: 512 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 944 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n2: 944 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10AC38: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 96 0x494E4DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x494CBA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x494CC77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n0: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 64 0x10B1C1: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 64 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 48 0x10B1CD: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 48 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n0: 8 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=356642
+mem_heap_B=3912
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=356780
+mem_heap_B=3440
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=356833
+mem_heap_B=3912
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=357594
+mem_heap_B=4424
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=361070
+mem_heap_B=4616
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=363043
+mem_heap_B=7816
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=364141
+mem_heap_B=7888
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=365621
+mem_heap_B=8192
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=366684
+mem_heap_B=8496
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=367688
+mem_heap_B=8800
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=detailed
+n8: 8800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3200 0x494E550: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 3200 0x4962822: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 3200 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 3200 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 3072 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 3072 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 2048 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 2048 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4A021B3: __vfscanf_internal (vfscanf-internal.c:676)
+      n1: 1024 0x49F5EB5: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 1024 0x10A6BC: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 1024 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n2: 1024 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10AD0D: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 1024 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1024 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n2: 1024 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 944 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n3: 944 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10ACCF: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 912 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 912 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 912 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 912 0x4A33606: allocate_stack (allocatestack.c:429)
+     n1: 912 0x4A33606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 912 0x4962E1E: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 912 0x4958971: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n0: 912 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n2: 200 0x494E4A4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 192 0x49629A3: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 192 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 192 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 8 in 1 place, below massif's threshold (1.00%)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n0: 184 in 3 places, all below massif's threshold (1.00%)
+ n1: 96 0x494E4DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x494CBA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x494CC77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n0: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=23
+#-----------
+time=368692
+mem_heap_B=9104
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=369696
+mem_heap_B=9408
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=370700
+mem_heap_B=9712
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=371704
+mem_heap_B=10016
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1327930059
+mem_heap_B=10016
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=detailed
+n7: 10016 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3200 0x494E550: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 3200 0x4962822: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 3200 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 3200 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 3072 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 3072 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 2048 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 2048 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4A021B3: __vfscanf_internal (vfscanf-internal.c:676)
+      n1: 1024 0x49F5EB5: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 1024 0x10A6BC: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 1024 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n2: 1024 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10AD0D: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 1024 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1024 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n2: 1024 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2128 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 2128 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 2128 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 2128 0x4A33606: allocate_stack (allocatestack.c:429)
+     n1: 2128 0x4A33606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 2128 0x4962E1E: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 2128 0x4958971: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n0: 2128 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 944 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n3: 944 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10ACCF: create_immage (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A75F: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 280 in 4 places, all below massif's threshold (1.00%)
+ n2: 200 0x494E4A4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 192 0x49629A3: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 192 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 192 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 8 in 1 place, below massif's threshold (1.00%)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+#-----------
+snapshot=28
+#-----------
+time=1327930059
+mem_heap_B=9504
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1327930198
+mem_heap_B=9032
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1327936036
+mem_heap_B=9124
+mem_heap_extra_B=236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1327993409
+mem_heap_B=9596
+mem_heap_extra_B=252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1327993843
+mem_heap_B=10108
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1328093289
+mem_heap_B=10108
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=peak
+n8: 10108 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3200 0x494E550: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 3200 0x4962822: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 3200 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 3200 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 3072 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n3: 3072 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 1536 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 1536 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4A021B3: __vfscanf_internal (vfscanf-internal.c:676)
+      n1: 1024 0x49F5EB5: __isoc99_scanf (isoc99_scanf.c:30)
+       n0: 1024 0x10A6BC: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 512 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n2: 512 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+   n1: 1024 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1024 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n2: 1024 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+   n1: 512 0x4A29F3B: _IO_file_xsgetn (fileops.c:1288)
+    n1: 512 0x4A1C48A: fread (iofread.c:38)
+     n1: 512 0x10B879: gcov_read_bytes (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+      n1: 512 0x10BF67: gcov_do_dump.constprop.0 (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+       n1: 512 0x10D9CB: __gcov_exit (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n1: 512 0x40010F1: _dl_call_fini (dl-call_fini.c:43)
+         n1: 512 0x4005577: _dl_fini (dl-fini.c:114)
+          n1: 512 0x49DDA65: __run_exit_handlers (exit.c:108)
+           n1: 512 0x49DDBAD: exit (exit.c:138)
+            n0: 512 0x49C01D0: (below main) (libc_start_call_main.h:74)
+ n1: 2128 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 2128 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 2128 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 2128 0x4A33606: allocate_stack (allocatestack.c:429)
+     n1: 2128 0x4A33606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 2128 0x4962E1E: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 2128 0x4958971: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n0: 2128 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 472 0x4A1B58D: fdopen@@GLIBC_2.2.5 (iofdopen.c:122)
+  n1: 472 0x10BC5E: __gcov_open (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n1: 472 0x10BF4E: gcov_do_dump.constprop.0 (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n1: 472 0x10D9CB: __gcov_exit (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+     n1: 472 0x40010F1: _dl_call_fini (dl-call_fini.c:43)
+      n1: 472 0x4005577: _dl_fini (dl-fini.c:114)
+       n1: 472 0x49DDA65: __run_exit_handlers (exit.c:108)
+        n1: 472 0x49DDBAD: exit (exit.c:138)
+         n0: 472 0x49C01D0: (below main) (libc_start_call_main.h:74)
+ n1: 472 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n2: 472 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n0: 372 in 5 places, all below massif's threshold (1.00%)
+ n2: 200 0x494E4A4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 192 0x49629A3: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 192 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 192 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 8 in 1 place, below massif's threshold (1.00%)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+#-----------
+snapshot=34
+#-----------
+time=1328093289
+mem_heap_B=9596
+mem_heap_extra_B=252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=1328093428
+mem_heap_B=9124
+mem_heap_extra_B=236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1328093473
+mem_heap_B=9032
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1328093549
+mem_heap_B=9122
+mem_heap_extra_B=238
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1328223422
+mem_heap_B=9594
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1328223856
+mem_heap_B=10106
+mem_heap_extra_B=262
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1328301858
+mem_heap_B=9594
+mem_heap_extra_B=254
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1328301997
+mem_heap_B=9122
+mem_heap_extra_B=238
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1328302042
+mem_heap_B=9032
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1328305940
+mem_heap_B=8008
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=detailed
+n8: 8008 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3200 0x494E550: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 3200 0x4962822: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 3200 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 3200 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 2128 0x40145AB: calloc (rtld-malloc.h:44)
+  n1: 2128 0x40145AB: allocate_dtv (dl-tls.c:370)
+   n1: 2128 0x40145AB: _dl_allocate_tls (dl-tls.c:629)
+    n1: 2128 0x4A33606: allocate_stack (allocatestack.c:429)
+     n1: 2128 0x4A33606: pthread_create@@GLIBC_2.34 (pthread_create.c:655)
+      n1: 2128 0x4962E1E: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+       n1: 2128 0x4958971: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+        n0: 2128 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n1: 1536 0x4A1B1A4: _IO_file_doallocate (filedoalloc.c:101)
+  n3: 1536 0x4A2B513: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4A28F7F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:745)
+    n1: 1024 0x4A29A9E: _IO_new_file_xsputn (fileops.c:1244)
+     n1: 1024 0x4A29A9E: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
+      n1: 1024 0x49F6CB8: __printf_buffer_flush_to_file (printf_buffer_to_file.c:59)
+       n1: 1024 0x49F6CB8: __printf_buffer_to_file_done (printf_buffer_to_file.c:120)
+        n2: 1024 0x4A01732: __vfprintf_internal (vfprintf-internal.c:1545)
+         n1: 1024 0x4ACDA0C: __printf_chk (printf_chk.c:33)
+          n0: 1024 0x10A6AF: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+   n1: 512 0x4A28873: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:486)
+    n2: 512 0x4A2B5C1: _IO_default_uflow (genops.c:362)
+     n1: 512 0x4A0286A: __vfscanf_internal (vfscanf-internal.c:454)
+      n2: 512 0x49F5DDE: __isoc99_fscanf (isoc99_fscanf.c:30)
+       n1: 512 0x10B18D: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+        n0: 512 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 472 0x4A1BE6E: __fopen_internal (iofopen.c:65)
+  n2: 472 0x4A1BE6E: fopen@@GLIBC_2.2.5 (iofopen.c:86)
+   n1: 472 0x10B145: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+    n0: 472 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n2: 200 0x494E4A4: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 192 0x49629A3: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 192 0x495895A: GOMP_parallel (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n0: 192 0x10A7A4: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 8 in 1 place, below massif's threshold (1.00%)
+ n1: 192 0x10B1B0: open_scene (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+  n0: 192 0x10A733: main (in /mnt/c/Users/pitom/OneDrive/Desktop/materiale uni/programm avanz/esame/Projects/main)
+ n0: 184 in 5 places, all below massif's threshold (1.00%)
+ n1: 96 0x494E4DC: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+  n1: 96 0x494CBA0: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+   n1: 96 0x494CC77: ??? (in /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0)
+    n1: 96 0x400571E: call_init.part.0 (dl-init.c:74)
+     n1: 96 0x4005823: call_init (dl-init.c:120)
+      n1: 96 0x4005823: _dl_init (dl-init.c:121)
+       n0: 96 0x401F59F: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+#-----------
+snapshot=44
+#-----------
+time=1328305974
+mem_heap_B=6984
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1328306008
+mem_heap_B=6472
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
