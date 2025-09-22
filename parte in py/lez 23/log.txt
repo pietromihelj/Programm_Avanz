@@ -1,0 +1,54 @@
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti (10,) e {}
+ottengo: -4999999950000010 
+chiamo argomenti (7,) e {}
+ottengo: -4999999950000007 
+chiamo argomenti (10,) e {}
+ottengo: -4999999950000010 
+chiamo argomenti (7,) e {}
+ottengo: -4999999950000007 
+chiamo argomenti ([1, 2, 3, 4, 5],) e {}
+ottengo: 0 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
+chiamo argomenti (10,) e {}
+ottengo: -4999999949999990 
+chiamo argomenti (7,) e {}
+ottengo: -4999999949999993 
